@@ -26,14 +26,15 @@ Story Point Estimation Refactor Regression test Stand-up)
 participants_number = 20
 
 # Get the spreadsheet by its title
-@spreadsheet = session.spreadsheet_by_title("Ruby Spreadsheet")
+@spreadsheet = session.spreadsheet_by_title("Bingo")
 # Get the first worksheet
 @worksheet = @spreadsheet.worksheets.first
 # Print out the first 6 columns of each row
 
 
 col = 1
-10.times do
+
+20.times do
    unique_shuffle(bs_bingo_words)
    uniq = @combination_array.last
    uniq.each_with_index do |word, i|

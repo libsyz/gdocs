@@ -48,10 +48,11 @@ binding.pry
 
 puts "hello"
 
-## Make a copy and provide the file with a name
+## Make a copy and provide the file with a name - Done, but through a normal POST API, with no library!!
+## What is the fucking point!
 
+## Authenticate into Google Docs - NO RUBY LIBRARY FOR GDOCS
 
-## Authenticate into Google Docs -
 
 # Get that last document that was just generated
 # That document should have a table inside with the exact number of cells

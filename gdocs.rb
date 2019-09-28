@@ -1,17 +1,9 @@
+
+
+
 require 'pry'
 require 'bundler'
 Bundler.require
-
-
-# Initialize the client with your Bearer API key
-# (add this to config/initializers/bearer.rb)
-Bearer::Configuration.setup do |config|
-  config.api_key = 'sk_sandbox_SIY13hyGui7kUjCqKd0HcZfQhnp9qAFB'
-end
-# Call an endpoint of your api
-# Bearer.integration('google_docs')
-#   .auth('ac727aa0-e0ef-11e9-9c0c-8ba5d28524e8')
-#   .post('documents', query: { title: "Bearer 🐻" })
 
 bs_bingo_words = %w(Test Driven Development Story Time  Epic  Waterfall Manifesto
 Done  Task Board  Unit Test Time-box  Backlog
